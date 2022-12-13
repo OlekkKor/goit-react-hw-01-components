@@ -1,0 +1,21 @@
+.item{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+
+.online{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: greenyellow;
+}
+
+
+.offline{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: red;
+}
