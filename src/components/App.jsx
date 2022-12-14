@@ -1,17 +1,17 @@
-import user from "../user.json";
-import data from "../statistic.json";
-import friends from "../friends.json";
-import transactions from "../transactions.json";
+import user from "../data/user.json";
+import data from "../data/statistic.json";
+import friends from "../data/friends.json";
+import transactions from "../data/transactions.json";
 
-import Profile from "../components/user.task1/profile";
-import Statist from "../components/statistic.task2/statistic";
-import FriendList from "../components/friends.task3/FriendList";
-import TransactionHistory from "../components/transaction.task4/transaction";
+import User from "../components/User/User.js";
+import Statist from "./Statistic/Statistic";
+import FriendList from "./Friends/FriendList";
+import TransactionHistory from "./Transaction/Transaction";
 
 export function App() {
   return (
     <>
-      <Profile
+      <User
         username={user.username}
         tag={user.tag}
         location={user.location}
